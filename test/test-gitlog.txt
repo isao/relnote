@@ -1,0 +1,627 @@
+» befd8446ba22e97f19c629fa6ab47622e83c9a79	Drew Folta
+release 0.4.0 (based on 0.3.30-200-ga84bc31)
+
+» a84bc3190a7ccd7ceae9bd10cb6cd311c390be03	Joe Catera
+Merge pull request #342 from zhouyaoji/resource_store_docs
+Adding the documentation for the Resource Store to the Topics chapter.
+» aed2b0ed3d151908c1b023a3a808638c437b3ae1	Joe Catera
+Added resource store doc to index.
+
+» bd2a299f6a485ac459ea9954a31e5c19ff36c677	Joe Catera
+Added a prerequisite and made a couple of edits.
+
+» 008822c0ce4d5383a1dafcb5399ec10a10934d70	Joe Catera
+Copy edited and fixed some reST formatting errors.
+
+» 6374c7290f6e6c3d917b7855538cd8c181a3d234	Joe Catera
+Made more edits.
+
+» c531c0fcb421032ac8c64b28d188fc784b5f2a87	Joe Catera
+Adding edits suggested by Drew.
+
+» f5cd9e8217a66c40b73b98d72536b8c4bec569d5	Joe Catera
+Corrected meta object table.
+
+» d78f1f36c6d46d1ce674ea6c168f16e7d8bdb29a	Joe Catera
+Made more edits based on an engineer's feedback.
+
+» 844dd0581480c991d36692f89471a6041fd7c31b	Joe Catera
+Made edits suggested by Drew.
+
+» b151fd608f09be19e5ee6cb170f63869f91f0237	Joe Catera
+Updated the resource store doc, removed backup.
+
+» 41dc9b04fae586c3fda25962222bf32aa9aaaf24	Joe Catera
+Removing backup file.
+
+» dfad6debdc1a264f035d7a81f6f8179ef44f0bea	Joe Catera
+Modified a method name and added a new method.
+
+» abb2957e128d846fca6dbeaca2314524d76e5471	Joe Catera
+Used the Sphinx domain directives for the API docs.
+
+» fa20561ef07814cb069facf8056718adbc5b971a	Joe Catera
+Fixed reST issues and did more copy editing.
+
+» d5661a4cd6c440f1caea6ced82833dc04e4de6f9	Joe Catera
+Added tables for 'pkg' and 'fs' objects, expanded on overview, and added intro to what is a resource section.
+
+» cbcebf4265191ba7bca5e1329f4dba4cb48073f0	Joe Catera
+More edits.
+
+» b37dc0cd924d504312c5feb2e34b66b4dc7166dc	Joe Catera
+Made more edits.
+
+» 2c3a5d0ccbdb06000fcc4f3aee24cb8f84d2f79c	Joe Catera
+Trying the 'code' directive as the 'code-block' directive is not rendering on GitHub.
+
+» 3dfaf88e5dc00e3856c48eb06a71a7b17d1e38b6	Joe Catera
+Fixed some reST issues.
+
+» 9036d7c4fc31cbd8d139fe0e7034581bf3a050ee	Joe Catera
+Changing marker for second-level headings.
+
+» ca9d9ccdf32c2209960178516337db555ac83a09	Joe Catera
+Removing comments that might be breaking the file on GitHub, although Sphinx renders the file without an issue.
+
+» a10ffe17a32a730d26d83ad5323d84eb498340dc	Joe Catera
+Fixing indentation, hopefully.
+
+» 96567f290e8464c471cec662479fc0df95164c97	Joe Catera
+Moving comments and variables to the end. Seems like the indentation broke the doc.
+
+» 4cc21e3a04a6d98e3ae810f803df9cce928fa030	Joe Catera
+Made more copy edits.
+
+» 706e125a642eff5441137492020f75a20a6a520c	Joe Catera
+Made copy edits, fixed links, and rewrote some sections.
+
+» 3156c1efa83cbac2f7ef809850fc62fb775fab2a	Joe Catera
+Finished first draft of docs.
+
+» 55d283c3fb3fb8dbdae4ca9f82212ebb78d49dd9	Joe Catera
+Edited doc.
+
+» aa948e3136cbcd74ed1d26d5193daab26987d973	Joe Catera
+Finished added information from skeleton doc and example.
+
+» 78d10b1792a3f899e83eef120787e08100125560	Joe Catera
+Added info from Drew's skeleton docs. Need to edit the section on creating custom RS addons and built-in addons.
+
+» e52fcf1caeb242942283401de5b9e8505eda7892	Joe Catera
+Removed the instance built-in addon, added an audience section, spelled out AOP and linked it, removed addons that have become part of the resource store.
+
+» 25763310dd9787f255e291f44be89850a93cc44e	Joe Catera
+Updated resource store doc.
+
+» ce65ffe80dd6cdd2d35993afb2cc75a8077c198b	Joe Catera
+Changed staticHandlerURL to url for addon and property.
+
+» acf7afd518efafac2b4b0b157b179cef1c7f47bd	Joe Catera
+Removing a backup file.
+
+» c53a78c435c291cb83822b8f524348977d484c93	Joe Catera
+Added questions and attempted to describe some parameters for functions that are required by resource store addons.
+
+» 99d94a5ba3b752c5e41040ed50beaab447c7be33	Joe Catera
+Spell checked doc.
+
+» 1891e233b14a7691b7c2c006a984ba09e95aa146	Joe Catera
+Renamed resource store doc to follow the same naming convention as the other topics.
+
+» 9d00b8eb666041966fb5b14bf5a4e245816a910e	Joe Catera
+Removing an errant file.
+
+» 0547f803d7186d50cb969caa6c75c7c20c8fa2e2	Joe Catera
+Added more questions, completed some sections.
+
+» 0b1bafad80e54d1d3b3f1b8d28f99ce34e60f277	Joe Catera
+Added questions and fixed metadata object table.
+
+» dd1fab412e3d9c5a83f7963c3d7c8ffad6e21550	Joe Catera
+Adding more detail to the addons and more questions.
+
+» 1744073f8e2220ff1f56c2eb7ef246b155605889	Joe Catera
+Fleshed out the table for metadata, worked on the built-in addons.
+
+» 23ae6a90d03e8e252fd124d592028cdee03c6c06	Joe Catera
+Reorganized doc, added sections, rewrote parts.
+
+» f7d76dd4f4be2c9a1ba55833ca37603c82102bde	Joe Catera
+Adding code examples of resource addons that come with Mojito.
+
+» 80edfa91c86eb78914725080f42941da0a5f85c9	Joe Catera
+Adding notes to docs.
+
+» 9e44477f2b7c301799716a48ffd2fc05e82eeac8	Joe Catera
+Stubbed out chapter, added notes, created table for metadata.
+
+» 6966863dc3f6314fbba5eb9077a0eaa0dece51d6	Joe Catera
+Started draft docs for the resource store.
+
+» a444c1ea574de1cd253563ad34a101f6cee67dd7	Isao Yagi
+Merge pull request #327 from drewfish/redesign-rs
+redesigned resource store
+» d1a37d839a69623b54355d130ca57f28ed2534b5	Drew Folta
+Merge branch 'develop' into redesign-rs
+Conflicts:
+	source/lib/management/utils.js
+
+» 090bf2d13b8add7b42da36c12b88caf7e4768203	Drew Folta
+better handling of attempt to re-defineProperty()
+
+» eea8dc99b6f528d4f13a20b526980426e1d2ac63	Drew Folta
+guarded another instance of defineProperty()
+
+» 19ef895e016db2307b7ca06af4dec22ff6505b5e	Drew Folta
+made console color library friendly to code coverage
+
+» 7d626d5775f8825f70b1b2b4f55e897042c83e21	Drew Folta
+formatting update
+
+» 1b691953f277ff055d59a437505a67894b809dad	Drew Folta
+marked attachActionContextAddons() as private
+
+» 1659c4e0a9f5be2a4136b4b554ffdba0da7b96c2	Drew Folta
+better version of last commit :) :(
+
+» bfe4dac10d9b72b9455786d56696156bae3efad7	Drew Folta
+docs/comments update
+
+» a307d155e83267d93bdfa15be8cbb5c4ad2afc63	Drew Folta
+called out HACK as what it is
+
+» ba0f043f0d2aa45784e58005f8c5f269204115d3	Drew Folta
+optimized check for dot-count in YUI module file names
+
+» 19ec1bdcde063b1725b2b753676b41ae12c76d3e	Drew Folta
+renamed addon-rs-yui *YUISorted() methods
+
+» 9739b0a294d1e1e4683cba61ba8c4fd8f07e9ab1	Drew Folta
+renamed onHostEvent() handlers to on{event}
+
+» 1eadf0679e4c8860d9956cd2eb5ddf3b3a472137	Drew Folta
+renamed and moved unEscape() to management/utils
+
+» 0b0794157187516d195febb5905f2d68278f2139	Drew Folta
+Merge branch 'develop' into redesign-rs
+
+» 81c4e270bc25f8270940ba58fdc26e886c548f0a	Drew Folta
+some of the cleanups suggested by the PR
+
+» a2611aec66450a58b0913f5c39c2377faff5fa86	Drew Folta
+more tests for addon-rs-selector
+
+» 0a1538d0c041230548376efe988e6d3bfceccb22	Drew Folta
+comments and cleanups thereof
+
+» 6dc55a4e458106c4eed62affb80f8815b06e6134	Drew Folta
+store.yui.getConfigFw() and .getConfigApp() converge to .getConfigShared()
+
+» d7f64be76987853810db2093c36d6995ac654b6c	Drew Folta
+cleaner way to free memory
+
+» 8f2b6d3a5e5bed4be31e4b747ad5593c3d19da89	Drew Folta
+Y.JSON cleanups
+
+» 433c9069404937d2ea1f5e4536e81fe7f26cbb0d	Drew Folta
+cloneObj() gone in favor of Y.clone()
+
+» 56deb1391d829f9e29de764666c05bb482cc2d9f	Drew Folta
+optimized test for public mojits
+
+» bafc20e2cf647a8fe05b473da7f433c46fae0826	Drew Folta
+removed superfluous ATTRS setup
+
+» 9306443f1d73b6ce4f7fcc3cb7fe53a2ba20d391	Drew Folta
+more API docs cleanups
+
+» 08930ac45acd06884f7d91017f8c05229ce9029f	Drew Folta
+API doc cleanup
+
+» f83e4e516759231db32830d254094a8926c12358	Drew Folta
+Merge branch 'develop' into redesign-rs
+Conflicts:
+	source/lib/store.server.js
+
+» f78f3bd381bf669c6af2606d0795d9c322a9bf96	Drew Folta
+fallback when validating "lang" context key
+
+» 70cae36d4c69a85c77623f0e42bfb31f0e6783d4	Drew Folta
+even more defenses against poluting internal structures
+
+» 66978deae255f4bb857ed120f3b9b515f247add8	Drew Folta
+more defensive about poluting internal structures
+
+» 1c3b7e3a5e5565644d9b31cd5f6fe4fda4613d0e	Drew Folta
+Merge branch 'develop' into redesign-rs
+
+» 31c3939a139219cf8aba5c561737a2288f4726ab	Drew Folta
+clone the routes in store.getRoutes(), because the router modifies the route object in-place
+
+» f16c78398b5def6cf62833b021bb1ca612b185f3	Drew Folta
+updating examples, since selector no longer defaults to device
+
+» ee33039144bc3266346c8493171b2a54fd50f38d	Drew Folta
+optimization:  don't make a new Y object every time we want to make a Y.Loader
+
+» afa371cb38759707bc445a5ebb16184501a4581f	Drew Folta
+don't generate a URL for the "shared" mojit
+
+» a76b935822b58350e48dede7a4a7ade73cbb6194	Drew Folta
+delint
+
+» d020064e6a6b6098207a1581df3261ac1296104b	Drew Folta
+Merge branch 'develop' into redesign-rs
+
+» 0b4d26c7b28efcb26b7f521b773018eb19a5b6b7	Drew Folta
+resolved issue of mojits that come from multiple sources (such as HTMLFrameMojit with overrides in the app)
+
+» 33670a9896df36645827b3db98c5a7ef651b19ea	Drew Folta
+app resources override framework resources
+
+» 55c26ac9f08d347b2154189d1196f96f0d54689f	Drew Folta
+more styling tweaks
+
+» fd870d2a7c0505e5bcb5c35cb1ed515ebd2b0a89	Drew Folta
+tweaked traced edges a skosh
+
+» f1b1bf32787630dedaf0a6ebe3f5d7cd2c5c651e	Drew Folta
+option --trace
+
+» dd74db46afc33ecf1681a8ad83be220d2e40954a	Drew Folta
+rewrite to use much of the power of the new resource store
+
+» 1aceed9efb7301404c2ace526633774aeb89f99e	Drew Folta
+no longer trim .affinity and .selector from resolved resources, since useful for debugging
+
+» 118eb6c0d8cefd3c912e752d5c13bd59f005d36f	Drew Folta
+nifty features
+* binders skipped when runtime:server
+* graph has nice title
+* language bundles skipped unless --lang is given
+
+» fb1624e6632f24b38925d077ee16a21f42e33d09	Drew Folta
+guard against wierd files, mainly broken symlinks
+
+» b34c6b395aa983568d4ebd0ffbe8eb70f7046471	Drew Folta
+better context validation
+
+» 7afaf7db42a1f147d60f8d85ae1c17eefa9a91b0	Drew Folta
+more lenient when interpretting user-provided dimensions.json files
+
+» 9af3c55363ea01cc79a3ee995f96da29ac441d9a	Drew Folta
+Merge branch 'develop' into redesign-rs
+Conflicts:
+	source/lib/app/commands/jslint.js
+	source/lib/store.server.js
+
+» f58867c33f8588dce4ea4819705da1551f701500	Drew Folta
+resolved this.rs and destructor() question
+
+» 8d4ce6459da442e88b89f61299efa422a3d32603	Drew Folta
+validate context agains dimensions.json, to guard against spurious values
+
+» 96194ef32fc893fd027bf6cc6ed0da8d82e515bb	Drew Folta
+better test for if the controller exists on the client
+
+» 8beb315bd31a590d35d684eab740cbbdc594ac2b	Drew Folta
+created addon-rs-selector.getAllPOSLs(), and used for deep optimizations
+
+» de3b70909d945ccdd56442191304fd2a3493b793	Drew Folta
+renamed addon-rs-selector.getListFromContext() to getPOSLFromContext()
+
+» de06a82c3238be3f0046459a3572df63a05620fd	Drew Folta
+optimization:  only track those dimensions that are actually used in the YCB file
+
+» 85f8ee1bfd8dbd3de6b50e6764e7eea4502ac231	Drew Folta
+delint
+
+» c2b29b923f04e30a6ca05263741da4484e2fcd13	Drew Folta
+fixed YCB tests
+
+» 6584e529c1b4388408a8fa863ed10b5bddf2de8e	Drew Folta
+when loading tests, also load "libs" tests
+
+» 439905ad297feaf02637a85db4b2481846d8b059	Drew Folta
+don't try to find the YUI module names of js files in the assets/ dirs
+
+» f960e3ee087744f9d656be05f8b42bb257ab7194	Drew Folta
+fixed rollups
+
+» 07d92f3436a00be046fb8224e385547ab6157ce0	Drew Folta
+Merge branch 'develop' into redesign-rs
+
+» 1ed0688e37b3a6b5dd67a142bed376f6bd7c4449	Drew Folta
+fixed `mojito test app`
+
+» dde6bb8d4524f7ce9011e2f46a9417c39767a5a7	Drew Folta
+fixed variable name error found by jenkins jslint
+
+» 5d31f354b502445f9b9923624570deaa0e49dcbd	Drew Folta
+Merge branch 'develop' into redesign-rs
+
+» 9ad99653abc4d0b2c80e0405dcf83eceed349581	Drew Folta
+dropped getSpecURL() from addons-rs-url
+
+» 330ac6da6b89829839df38b6e8606c96e2d63124	Drew Folta
+use store.getAllURLs() instead of methods on store.url
+
+» d7f12f8e89c69e18ee3976c026933399425269a4	Drew Folta
+addon-rs-url honors a URL set by another RS addon
+
+» 4decbc601109488ed573a020b831ee02e85f4627	Drew Folta
+any AC addon can get the store if they define a setStore() setter
+
+» 8ae219ea06f5179145a4578d8b799ce00bb5e443	Drew Folta
+store.getRoutes() returns the default route if none set by user
+
+» 686371328b10829280e843ce2020f6dcefdd67d6	Drew Folta
+cleanups and renames inspired by writing the skeleton doc
+
+» ca8e2ae61bf876f470ffc9fb5a3353f4c1f5d8e9	Drew Folta
+ack, I was wrong about toPreload being undefined
+
+» e9ab62e4e2fc8596bcf9e689769544359c63c348	Drew Folta
+documentation cleanup (using yuidocjs@0.3.14)
+
+» c33fe8197180c2be8badd2fb7580573455bbdfa9	Drew Folta
+fixed `mojito test --coverage`
+
+» 86c4504ae3812a2a4e10b2ad67f74e7c4e719116	Drew Folta
+small variable name cleanup
+
+» 226a7fd9b7e8ae22611fa06257acbbd8c52eb799	Drew Folta
+fixed store-server test
+controllers no longer depend on binders, even on the client
+
+» c2dbe603550f6d71918739f645c831e928384498	Drew Folta
+delint
+
+» 59f4dfda788f225b7119a913c2e05ef58ca10c3f	Drew Folta
+`mojito compile json` somewhat working (significant legacy issues with this)
+
+» 91798e66339508fc4edbd3c06441e075e8f0a2c8	Drew Folta
+inlinecss is common
+
+» d9594b4a89e9e28aa09c5e6eb3821a7b4ae83268	Drew Folta
+fixed params handling of routes
+
+» 195bc87727f7ef08f0ca7ffffe7d76f64c4174e2	Drew Folta
+binders shouldn't be a dependency for the controllers
+
+» 2a82f8e8bd27df619892391cf845cacc9e627601	Drew Folta
+cleaned up metadata leak between resource versions
+
+» 43676e43930eef01fff49adf4787bcf3b686710b	Drew Folta
+`mojito compile inlinecss` now works
+
+» 5b67bf5d92b7833bc1548c98cd5dfd09318e1255	Drew Folta
+`mojito compile views` now works
+
+» 5b063b63d08dcbb16a9cd3f2d5a96436d11e4064	Drew Folta
+fixed the tests (again)
+
+» d02ffeb3ab834488f0c2665c41c4806495b2e767	Drew Folta
+`mojito compile rollups` now works
+
+» ea2454508dc622b06c8eae946b915181deb34e46	Drew Folta
+delint
+
+» 56d9567fee7dde248c8875779e77ef2ee78ab3a6	Drew Folta
+more client-side fixes
+
+» bbc3c8b377744533a7576506227eb1099aff5249	Drew Folta
+fixed builds.html5app.forceRelativePaths
+
+» e0b50c67fd16775e82167c0ecd8362b761128897	Drew Folta
+the binders.  working.
+
+» 923980b3256ca53ca59563bf3db849009c063829	Drew Folta
+no longer need to fixup instance langs
+
+» bd15400fda3691837157bedc0abaac2c49f0aaad	Drew Folta
+preliminaries of `mojito build html5app`
+
+» e4c1cee5f5152c1a2dd3e4035a730b5489f41edb	Drew Folta
+works with new resource store
+
+» 47485cb60371c350104f066cb2aff76fa858c6f1	Drew Folta
+guard against missing controller
+
+» dd22147078c7276fc337293c62f0bae484097fa4	Drew Folta
+delint
+
+» dc4ade41c5649eedf11dc3a40be327e8b44de02f	Drew Folta
+last RS unit test now passes
+
+» b49e50159ab1c9d4ba19530d507f1e699b8902a9	Drew Folta
+optimized RS unit tests
+
+» 4a26c6eaaa7005ab02a11f8bdec36b6ca3bac07f	Drew Folta
+fixed addon-rs-url tests
+
+» e33d11012612a82902e192c390c77d7f00fddb08	Drew Folta
+small memory optimization
+
+» 4d69bfaa87fa1e6318f2fe927cef39e185305c95	Drew Folta
+implemented serializeClientStore()
+
+» a88b834d528a3edc68355123e9227a248de1e44d	Drew Folta
+fixed a couple of low-hanging unit tests
+
+» b2ac142aca75cb569acdef0da91bcc5a62d73b89	Drew Folta
+reimplemented mojit package.json check.  reimplemented publishing of package.json
+
+» 3fa37b3ec6e717c6ea5d48373208e3e40f5e4912	Drew Folta
+allow the RS to have a configurable mojitoRoot, mainly to get coverage unit tests working
+
+» e729db89ba301be1d89e0372a382e672fb7d241c	Drew Folta
+expandInstanceForEnv() caching
+
+» fb31cc0b5c42d6fd36eae18ad7f45123fe1f3962	Drew Folta
+lint
+
+» 6332a05774452a6017077de632d62d6c709329a9	Drew Folta
+implemented deferAllOptionalAutoloads
+
+» fafc6dcdc504b1f7f6b30b3440bcbb59c5945cea	Drew Folta
+Merge branch 'develop' into redesign-rs
+Conflicts:
+	source/lib/app/addons/ac/deploy.server.js
+	source/lib/app/commands/jslint.js
+	source/lib/app/commands/test.js
+	source/lib/store.server.js
+
+» 33d984bf3242aca3464b13a0372d8e3e6b57114f	Drew Folta
+updated resource-store-adapter tests. fixed some RS regressions
+
+» acc7bc2fc60c4dac62f3cbc170de3e0863a46c31	Drew Folta
+yui RS addon calculates yui module dependencies
+
+» fc23793979e0c4712b33c2541b6c9f32cd025ced	Drew Folta
+specs
+
+» 17e26172ca910d2b399249532cc954fc06358cff	Drew Folta
+more stubs for YUI when parsing a javascript file
+
+» a49fb86416f661ab8626160edff6a31f8b17c7df	Drew Folta
+store._staticURLs and store.fileFromStaticHandlerURL() now part of addon-rs-url
+
+» 74a3cf72c6effbef04783dbefac9fa00cf45a267	Drew Folta
+store.getAllMojits() no longer exists
+
+» eaf657afaf16df027623174b75374e6d932ccc6c	Drew Folta
+fixed up call to store.getAppConfig()
+
+» 9a1f88951925f59329c6243fcd0348df6fe7e290	Drew Folta
+done
+
+» 4300213e8854d2ef9e76a41c1400d5526a7f985a	Drew Folta
+store._root is spelled differently now
+
+» df5c010248d6812fd1375b5d6802c5ab56c0a359	Drew Folta
+store.setLogger() is gone
+
+» 310ffd849841a9ce22cff4f0b8305d3857d45c84	Drew Folta
+lint
+
+» f6f0c2f1f8d5f781e16659b0d9af8059179a764f	Drew Folta
+moved store.getYuiConfig*() to addon-rs-yui
+
+» 7b5e08e8357a70c66b4cb1c481c91e6c5465949e	Drew Folta
+missing dependency on json-stringify
+
+» 2be4a982cefc9b2b8127791a933888d597bf1552	Drew Folta
+Merge remote-tracking branch 'origin/redesign-rs' into redesign-rs
+
+» 36f9781b7f39ff07987889d01ee944fe27a319bf	Drew Folta
+Merge branch 'develop' into redesign-rs
+Conflicts:
+	source/lib/app/commands/info.js
+	source/lib/app/commands/start.js
+	source/lib/app/commands/version.js
+	source/lib/libs/ycb.js
+	source/lib/store.server.js
+	source/lib/tests/autoload/app/autoload/resource-store-adapter-tests.common.js
+	source/lib/tests/autoload/store.server-tests.js
+
+» 17ee9385735d3aebeb753fc6b0f0b270537e373e	Drew Folta
+fixed addon-rs-selector unit test
+
+» e7ee3e18f478fa9ebd55f85b592190508e061c46	Drew Folta
+first real version of expanceInstanceForEnv(), more tests pass but more to go
+
+» e5734ea186ab32e8a4f142bd3a761777dd85add9	Drew Folta
+a posl should only contain a selector that actually exists in the app
+
+» 5dac77200abc437fb729d92821fb95a4c5c15d31	Drew Folta
+beginning if instance methods, starting with getMojitTypeDetails()
+
+» 00730bb1658e3c3d0ad5db8ea079720b25cf4f44	Drew Folta
+reorganization and documentation
+
+» cc73e60e6692e59b7b26daa869a0a77a837bfbe6	Drew Folta
+addon-rs-url (and unit tests)
+
+» 6e4c26072ee115f75a6af6411fb2529a00050804	Drew Folta
+unit test for addon-rs-yui
+
+» 1c22f2516245c22832f5d9144b4b128ad041924b	Drew Folta
+unit test for addon-rs-selector
+
+» 666de01f0f6583912096be7601001be2bbd242e6	Drew Folta
+addon-rs-routes was a little silly, so moved back into the store core
+
+» 7b98d0b30cc63721b8b5dd65a98cf22aa83f56de	Drew Folta
+unit test for addon-rs-routes
+
+» 69333e2f048848969aca2e7ca9db2e81c0ad12c6	Drew Folta
+rest of tests for addon-rs-config
+
+» 0b4c8a231e369bb2d8b40f1df2f0b671c5ebcd64	Drew Folta
+start of config RS addon tests
+
+» 8987a606e90443696bc1bee1826bea976d64740a	Drew Folta
+everyone who wants the contents of a JSON file gets their own copy, to mangle as they see fit
+
+» 5a7ccbc56afdb616430c210c62d18c52f3f317a6	Drew Folta
+updated to match new resource store API
+
+» 9f9f91fb5d7b6a2b3a1ae2466fddccae0ef93151	Drew Folta
+delinted
+
+» 325bb3fca5c4d6512a8476bad04aae243df6ade6	Drew Folta
+`mojito test` runs (tests don't pass yet)
+
+» ba5017068be12f6f0c63b8296ae156cf8a36dfeb	Drew Folta
+uses the public store API to get the framework config
+
+» 65315baf84f8405479c89a14e3aaecfd79c9309c	Drew Folta
+updated for new store.getAppConfig() API
+
+» 4fde110636c0440b2f03c7fbc7eb75882d5c1e22	Drew Folta
+new store wired into index.js
+
+» 55b7c4da7e4b2ff634482fba36437e09bf4697c9	Drew Folta
+query for mojit resources also includes shared resources
+
+» f563a9dcf4b602553fd4fea87c4553f0fdd81e86	Drew Folta
+first phase of yui RS addon
+
+» 1f4b70b7c657a248aa2204d27a24959528ded8bb	Drew Folta
+routes addon
+
+» d6765bc6e9ffd02c095ab49b74edb12a74a3139b	Drew Folta
+resource and resource version getters
+
+» 0d4f181c3c633a70298dbcf37e99a83fbd0cdcec	Drew Folta
+real addon location and management
+
+» c37ff7dd94a2d17b89109bf24fff35db37143c0d	Drew Folta
+fixed up paths from move
+
+» 6648748a34761a8374aaa951f167f9bb52c2fe2e	Drew Folta
+moved archetypes/ and management/commands/ into app/
+
+» 04178f93b5630c7263e38e521e46762fa00f859b	Drew Folta
+api docs update
+
+» a7684e1cd4e2989846987d9b61b8891c7acae38d	Drew Folta
+monster (but hopefully clean) resource resolution
+
+» 8af6ca80476a4862a2447f0d2508588517543a43	Drew Folta
+uses new OO interface to YCB
+
+» 78d3224e3a46d476bc2da35eebe62a34cf8f0111	Drew Folta
+refactored to add a more efficient OO interface
+
+» ace2ac81dd4dac13b815c40af636e019f1c5e8f7	Drew Folta
+reworked how resources are found by convention
+
+» 86f55145c8396cd90ad21fd903dd443ff0eba3ad	Drew Folta
+cleanups
+
+» 1eeea27086b3778e8d9c088c5c6654516a144d13	Drew Folta
+moved initial resource store redesign work
+

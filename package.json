@@ -1,0 +1,21 @@
+{
+    "name": "relnote",
+    "version": "0.0.1",
+    "description": "format `git log` into something like a release announcement if commit log messages follow a particular convention.",
+    "main": "index.js",
+    "bin": "index.js",
+    "scripts": {
+        "test": "ytestrunner --no-colors ./test"
+    },
+    "dependencies": {
+    	"github-flavored-markdown": "~1",
+    	"handlebars": "~1"
+    },
+    "devDependencies": {
+        "yuitest": "~0.7",
+        "ytestrunner": "~0.1"
+    },
+    "keywords": ["git", "scm"],
+    "author": "Isao Yagi <isao@yahoo-inc.com>",
+    "license": "BSD"
+}
