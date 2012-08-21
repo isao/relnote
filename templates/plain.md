@@ -1,4 +1,4 @@
-Mojito Release {{version}}
+Mojito Release {{range2version range}}
 ======================
 
 Mojito {{version}} is now [tagged](/yahoo/mojito/tags) and available on [npm](https://npmjs.org/package/mojito).

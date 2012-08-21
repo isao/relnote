@@ -8,13 +8,18 @@
         "test": "ytestrunner --no-colors ./test"
     },
     "dependencies": {
-    	"github-flavored-markdown": "~1",
-    	"handlebars": "~1"
+        "github-flavored-markdown": "~1",
+        "handlebars": "~1"
     },
     "devDependencies": {
         "yuitest": "~0.7",
         "ytestrunner": "~0.1"
     },
+    "repository": {
+        "type": "git",
+        "url": "git://github-eval.corp.yahoo.com/isao/relnote.git"
+    },
+    "bugs": "http://github-eval.corp.yahoo.com/isao/relnote/issues",
     "keywords": ["git", "scm"],
     "author": "Isao Yagi <isao@yahoo-inc.com>",
     "license": "BSD"
