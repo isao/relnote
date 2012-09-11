@@ -9,7 +9,7 @@ var event = new (require('events').EventEmitter)(),
 gitlog.init(event);       //emits- error, data, skip, end
 categorize.init(event);   //emits- categorized
 render.init(event, {      //emits- rendered-text, rendered-html
-    template: __dirname + '/templates/plain.md',
+    template: __dirname + '/templates/mojito-wiki-rel.md',
     helpers: __dirname + '/templates/helpers.js'
 });
 
