@@ -1,23 +1,23 @@
 Mojito Release {{range2version range}}
 ======================
 
-Mojito {{version}} is now [tagged](/yahoo/mojito/tags) and available on [npm](https://npmjs.org/package/mojito).
+[Mojito {{range2version range}}]({{compareView range}}) is now [tagged](/yahoo/mojito/tags) and available on [npm](https://npmjs.org/package/mojito).
 
 Notes
 -----
-{{#notes}}* {{sha}} {{body}}
+{{#notes}}* {{commitLink sha}} {{body}}
 {{/notes}}
 
 Please see [DEPRECATIONS.md](/yahoo/mojito/blob/DEPRECATIONS.md).
 
 Features
 --------
-{{#features}}* {{sha}} {{body}}
+{{#features}}* {{commitLink sha}} {{body}}
 {{/features}}
 
 Fixes
 -----
-{{#bugs}}* {{sha}} {{unwrap body}}
+{{#bugs}}* {{commitLink sha}} {{unwrap body}}
 {{/bugs}}
 
 Acknowlegements
@@ -28,5 +28,5 @@ Special thanks to the following for their contributions to this release:
 
 skipped please edit or delete
 -----------------------------
-{{#skipped}}* {{sha}} {{unwrap body}}
+{{#skipped}}* {{commitLink sha}} {{unwrap body}}
 {{/skipped}}
