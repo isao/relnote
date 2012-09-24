@@ -12,7 +12,7 @@ Usage
 
 ### install
 
-    % npm i git://github-eval.corp.yahoo.com/isao/relnote.git
+    % npm i https://git.corp.yahoo.com/isao/relnote.git
 
 
 Commit log conventions
