@@ -12,6 +12,8 @@ Usage
 
 ### install
 
+-- this is broken on git.corp, pls clone --
+
     % npm i https://git.corp.yahoo.com/isao/relnote.git
 
 
