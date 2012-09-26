@@ -5,7 +5,7 @@
     "main": "index.js",
     "bin": "index.js",
     "scripts": {
-        "test": "ytestrunner --no-colors ./test"
+        "test": "ytestrunner --coverage ./test"
     },
     "dependencies": {
         "github-flavored-markdown": "~1",
