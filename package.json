@@ -17,9 +17,9 @@
     },
     "repository": {
         "type": "git",
-        "url": "git://github-eval.corp.yahoo.com/isao/relnote.git"
+        "url": "git://git.corp.yahoo.com/isao/relnote.git"
     },
-    "bugs": "http://github-eval.corp.yahoo.com/isao/relnote/issues",
+    "bugs": "http://git.corp.yahoo.com/isao/relnote/issues",
     "keywords": [
         "git",
         "scm"
