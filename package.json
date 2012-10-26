@@ -5,22 +5,25 @@
     "main": "index.js",
     "bin": "index.js",
     "scripts": {
-        "test": "ytestrunner --coverage ./test"
+        "test": "ytestrunner -c --instanbul --save-coverage ./test"
     },
     "dependencies": {
-        "github-flavored-markdown": "~1",
-        "handlebars": "~1"
+        "handlebars": ">1",
+        "marked": ">0.2.4"
     },
     "devDependencies": {
-        "yuitest": "~0.7",
-        "ytestrunner": "~0.1"
+        "yuitest": ">0.7",
+        "ytestrunner": ">0.1"
     },
     "repository": {
         "type": "git",
         "url": "git://github-eval.corp.yahoo.com/isao/relnote.git"
     },
     "bugs": "http://github-eval.corp.yahoo.com/isao/relnote/issues",
-    "keywords": ["git", "scm"],
+    "keywords": [
+        "git",
+        "scm"
+    ],
     "author": "Isao Yagi <isao@yahoo-inc.com>",
     "license": "BSD"
 }
