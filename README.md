@@ -79,7 +79,7 @@ Customization
 -------------
 Edit ./templates/plain.md to change the template or reference your own. Add [handlebars](See http://handlebarsjs.com/) helpers in ./templates/helpers.js or somewhere else, and reference them in the template.
 
-Todo: index.js should be hacked to parameterize these and other things as cli options in user space.
+Todo: index.js should be hacked to parameterize these and other things as cli options in user space, including specifying template/helpers via http.
 
 
 Note
