@@ -7,14 +7,12 @@ Usage
 -----
 
     % relnote range
-    
+
 ...where `range` is a `git log` range like `0.4.0..0.4.1`. Note the output is not particularly useful unless the commit log messages in the given range follow a convention.
 
 ### install
 
--- this is broken on git.corp, pls clone --
-
-    % npm i https://git.corp.yahoo.com/isao/relnote.git
+TODO pub to npm
 
 
 Commit log conventions
@@ -67,7 +65,7 @@ The rationale is to be compatible with [GitHub Flavored Markdown](GitHub Flavore
 The phrase "starting any line" means for a commit log message like this:
 
         Merge my big branch
-        
+
         new feature: fox even quicker, jumpier, browner
         fixed issue #123 brown fox was slow
         note: breaks compatibility with blue foxes
@@ -93,3 +91,8 @@ Using the full sha hashes because the GFM lib expects them.
 Regardless, I've commented out html rendering (uncommenting/adding a listener will re-enable it). Figure we'll just pipe to $EDITOR and paste onto the gh wiki.
 
 See also `man git-notes` as a way to add notes seperate from the a commit.
+
+License
+-------
+Copyright (c) 2012 Yahoo! Inc.  All rights reserved.
+Copyrights licensed under the MIT License. See the accompanying LICENSE file for terms.

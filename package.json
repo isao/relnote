@@ -15,15 +15,10 @@
         "yuitest": ">0.7",
         "ytestrunner": ">0.1"
     },
-    "repository": {
-        "type": "git",
-        "url": "git://git.corp.yahoo.com/isao/relnote.git"
-    },
-    "bugs": "http://git.corp.yahoo.com/isao/relnote/issues",
     "keywords": [
         "git",
         "scm"
     ],
     "author": "Isao Yagi <isao@yahoo-inc.com>",
-    "license": "BSD"
+    "license": "MIT"
 }

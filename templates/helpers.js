@@ -1,3 +1,9 @@
+/**
+ * Copyright (c) 2012 Yahoo! Inc.  All rights reserved.
+ * Copyrights licensed under the MIT License.
+ * See the accompanying LICENSE file for terms.
+ */
+
 var shortShaLen = 8,
     unwrapMax = 120;
 

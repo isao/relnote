@@ -1,3 +1,9 @@
+/**
+ * Copyright (c) 2012 Yahoo! Inc.  All rights reserved.
+ * Copyrights licensed under the MIT License.
+ * See the accompanying LICENSE file for terms.
+ */
+
 var Eem = require('events').EventEmitter,
     gitlog = require('../lib/gitlog'),
 
