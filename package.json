@@ -1,24 +1,34 @@
 {
-    "name": "relnote",
-    "version": "0.0.1",
-    "description": "format `git log` into something like a release announcement if commit log messages follow a particular convention.",
-    "main": "index.js",
-    "bin": "index.js",
-    "scripts": {
-        "test": "ytestrunner -c --instanbul --save-coverage ./test"
-    },
-    "dependencies": {
-        "handlebars": ">1",
-        "marked": ">0.2.4"
-    },
-    "devDependencies": {
-        "yuitest": ">0.7",
-        "ytestrunner": ">0.1"
-    },
-    "keywords": [
-        "git",
-        "scm"
-    ],
-    "author": "Isao Yagi <isao@yahoo-inc.com>",
-    "license": "MIT"
+  "name": "relnote",
+  "version": "0.0.1",
+  "description": "format `git log` into something like a release announcement if commit log messages follow a particular convention.",
+  "main": "index.js",
+  "bin": {
+    "relnote": "index.js"
+  },
+  "scripts": {
+    "test": "ytestrunner -c --instanbul --save-coverage ./test"
+  },
+  "dependencies": {
+    "handlebars": ">1",
+    "marked": ">0.2.4"
+  },
+  "devDependencies": {
+    "yuitest": ">0.7",
+    "ytestrunner": ">0.1"
+  },
+  "keywords": [
+    "git",
+    "scm"
+  ],
+  "author": "Isao Yagi <isao@yahoo-inc.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/isao/relnote.git"
+  }
 }
