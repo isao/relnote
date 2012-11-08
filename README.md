@@ -1,21 +1,34 @@
-README
+relnote
 ======
 
 A command line script to format `git log` into something like a release announcement if commit log messages follow a particular convention.
 
-Usage
+N.B. This is probably not very useful to anyone else besides me at the moment.
+
+usage
 -----
 
-    % relnote range
+    % cd my/git/repo
+    % relnote <range>
 
-...where `range` is a `git log` range like `0.4.0..0.4.1`. Note the output is not particularly useful unless the commit log messages in the given range follow a convention.
+...sends a template rendered with git-log info to stdout. `range` is a `git log` range like `0.4.0..0.4.1` or anything else `git log` understands. The output is not particularly useful, unless the commit log messages produced follow a convention (see below).
 
-### install
+Pipe to your text editor for polishing, like:
 
-TODO pub to npm
+    % relnote 0.1.2..0.1.3 | bbedit
+
+or to a file, like:
+
+    % relnote 0.0.1..0.0.2 > path/to/github/wiki/repo/Release-Notes-0.0.2
 
 
-Commit log conventions
+install
+-------
+
+    npm i -g relnote
+
+
+commit log conventions
 ----------------------
 
 Log messages are categorized as one or more of the following, or "skipped", with some examples below:
@@ -75,14 +88,14 @@ The phrase "starting any line" means for a commit log message like this:
 
 See also the [source](/isao/relnote/blob/master/lib/categorize.js), and the [tests](/isao/relnote/blob/master/test/test-cat.js).
 
-Customization
+customization
 -------------
 Edit ./templates/plain.md to change the template or reference your own. Add [handlebars](See http://handlebarsjs.com/) helpers in ./templates/helpers.js or somewhere else, and reference them in the template.
 
-Todo: index.js should be hacked to parameterize these and other things as cli options in user space, including specifying template/helpers via http.
+Todo: parameterize template and helper, including specifying via http.
 
 
-Note
+note
 ----
 [GitHub Flavored Markdown](GitHub Flavored Markdown) will autolink lots of stuff. GFM patterns are compatible with the ones above, and should be used where possible for wiki pages and commit messages viewed on github.com.
 
