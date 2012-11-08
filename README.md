@@ -77,12 +77,12 @@ The rationale is to be compatible with [GitHub Flavored Markdown](GitHub Flavore
 
 The phrase "starting any line" means for a commit log message like this:
 
-        Merge my big branch
+    Merge my big branch
 
-        new feature: fox even quicker, jumpier, browner
-        fixed issue #123 brown fox was slow
-        note: breaks compatibility with blue foxes
-        thanks @meganfox
+    new feature: fox even quicker, jumpier, browner
+    fixed issue #123 brown fox was slow
+    note: breaks compatibility with blue foxes
+    thanks @meganfox
 
 ...where "new", "fixed", "note", and "thanks" are preceeded by newlines, the example commit will be referenced in each category.
 
@@ -105,7 +105,7 @@ Regardless, I've commented out html rendering (uncommenting/adding a listener wi
 
 See also `man git-notes` as a way to add notes seperate from the a commit.
 
-License
+license
 -------
 Copyright (c) 2012 Yahoo! Inc.  All rights reserved.
 Copyrights licensed under the MIT License. See the accompanying LICENSE file for terms.
