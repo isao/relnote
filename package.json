@@ -1,6 +1,6 @@
 {
   "name": "relnote",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "format `git log` into something like a release announcement if commit log messages follow a particular convention.",
   "main": "index.js",
   "bin": {
