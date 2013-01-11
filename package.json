@@ -7,7 +7,7 @@
     "relnote": "index.js"
   },
   "scripts": {
-    "test": "ytestrunner --coverage --instanbul ./test"
+    "test": "ytestrunner --instanbul --coverage"
   },
   "dependencies": {
     "handlebars": ">1",
