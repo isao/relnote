@@ -1,4 +1,4 @@
-relnote [![Build Status](https://secure.travis-ci.org/isao/relnote.png?branch=master)](https://travis-ci.org/isao/relnote)
+relnote [![Build Status](https://secure.travis-ci.org/isao/relnote.png)](https://travis-ci.org/isao/relnote)
 ======
 
 A command line script to format `git log` into something like a release announcement if commit log messages follow a particular convention.
