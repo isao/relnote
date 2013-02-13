@@ -25,5 +25,7 @@ event.on('end', render.exec);
 event.on('rendered-text', console.log);
 //event.on('rendered-html', console.log);
 
-render.setKey('range', range);
-gitlog.exec(range);
+if(module === require.main) {
+    render.setKey('range', range);
+    gitlog.exec(range);	
+}

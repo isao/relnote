@@ -7,15 +7,14 @@
     "relnote": "index.js"
   },
   "scripts": {
-    "test": "ytestrunner --instanbul --coverage"
+    "test": "node ./test"
   },
   "dependencies": {
     "handlebars": ">1",
     "marked": ">0.2.4"
   },
   "devDependencies": {
-    "yuitest": ">0.7",
-    "ytestrunner": ">0.1"
+    "tape": "~0.2.2"
   },
   "keywords": [
     "git",

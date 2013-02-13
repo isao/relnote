@@ -1,0 +1,2 @@
+require('./categorize');
+require('./gitlog');
