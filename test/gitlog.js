@@ -11,7 +11,7 @@ var test = require('tape'),
     fs = require('fs'),
     input = fs.readFileSync(__dirname + '/test-gitlog.txt', 'utf8'),
     //git log --format="» %H\t%an%n%s%n%b" 0.3.30..0.4.0
-    
+
     logtxt,
     eem;
 

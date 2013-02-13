@@ -4,16 +4,16 @@
  * See the accompanying LICENSE file for terms.
  */
 
-var test = require('tape'),    
+var test = require('tape'),
     Eem = require('events').EventEmitter,
     cat = require('../lib/categorize'),
     eem;
-    
+
 
 function setUp() {
     eem = new Eem();
     cat.init(eem);
-    eem.on('data', cat.match);    	
+    eem.on('data', cat.match);
 }
 
 function forEachMsg(expected_type, msgs, t) {
